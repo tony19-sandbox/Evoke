@@ -12,7 +12,7 @@
           contain
           alt="Application Title"
           class="shrink mr-2"
-          src="./assets/application-title.png"
+          :src="require('@/assets/application-title.png')"
           transition="scale-transition"
         />
       </v-navigation-drawer>
